@@ -37,11 +37,11 @@ The second column is the text content of the SMS message that is being classifie
 
 Bag of Words(BoW) concept which is a term used to specify the problems that have a 'bag of words' or a collection of text data that needs to be worked with. The basic idea of BoW is to take a piece of text and count the frequency of the words in that text. It is important to note that the BoW concept treats each word individually and the order in which the words occur does not matter.
 
-![png](images\countvectorizer.png)
+![png](images/countvectorizer.png)
 
 ## Bayes Formula
 
-![png](images\bayes_formula.png)
+![png](images/bayes_formula.png)
 
 where A and B are events and P(B) != 0
 
@@ -55,17 +55,17 @@ where A and B are events and P(B) != 0
 
 Now that we have made predictions on our test set, our next goal is to evaluate how well our model is doing. There are various mechanisms for doing so, but first let's do quick recap of them.
 
-*Accuracy* measures how often the classifier makes the correct prediction. It’s the ratio of the number of correct predictions to the total number of predictions (the number of test data points).
+**Accuracy** measures how often the classifier makes the correct prediction. It’s the ratio of the number of correct predictions to the total number of predictions (the number of test data points).
 
-*Precision* tells us what proportion of messages we classified as spam, actually were spam. It is a ratio of true positives(words classified as spam, and which are actually spam) to all positives(all words classified as spam, irrespective of whether that was the correct classification), in other words it is the ratio of
+**Precision** tells us what proportion of messages we classified as spam, actually were spam. It is a ratio of true positives(words classified as spam, and which are actually spam) to all positives(all words classified as spam, irrespective of whether that was the correct classification), in other words it is the ratio of
 
 [True Positives/(True Positives + False Positives)]
 
-*Recall* (sensitivity) tells us what proportion of messages that actually were spam were classified by us as spam. It is a ratio of true positives(words classified as spam, and which are actually spam) to all the words that were actually spam, in other words it is the ratio of
+**Recall** (sensitivity) tells us what proportion of messages that actually were spam were classified by us as spam. It is a ratio of true positives(words classified as spam, and which are actually spam) to all the words that were actually spam, in other words it is the ratio of
 
 [True Positives/(True Positives + False Negatives)]
 
-The F1 score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
+The **F1 score** is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
 
 ## Code
 
@@ -96,6 +96,7 @@ print('Recall score: ', format(recall_score(y_test, predictions)))
 print('F1 score: ', format(f1_score(y_test, predictions)))
 
 ```
+## Output
 
 ```json
 
