@@ -24,7 +24,7 @@ This project has been broken down in to the following steps:
 
 ## Understanding the dataset
 
-We will be using a dataset originally compiled and posted on the UCI Machine Learning repository which has a very good collection of datasets for experimental research purposes. If you're interested, you can review the abstract and the original compressed data file on the UCI site. For this exercise, however, we've gone ahead and downloaded the data for you.
+We will be using a dataset originally compiled and posted on the UCI Machine Learning repository which has a very good collection of datasets for experimental research purposes.
 
 ![png](images/dqnb.png)
 
