@@ -41,7 +41,7 @@ Bag of Words(BoW) concept which is a term used to specify the problems that have
 
 ## Bayes Formula
 
-![png](images/bayes_formula.png {width=250})
+<img src="https://github.com/shashank136/Spam-SMS-Classifier/blob/master/images/bayes_formula.png" width="250">
 
 where A and B are events and P(B) != 0
 
