@@ -46,9 +46,9 @@ Bag of Words(BoW) concept which is a term used to specify the problems that have
 
 where A and B are events and P(B) != 0
 
-* P(A|B) is a conditional probability: the likelihood of event A occuring given that B is true.
+* P(A|B) is a conditional probability: the likelihood of event A occurring given that B is true.
 
-* P(B|A) is a conditional probability: the likelihood of event B occuring given that A is true.
+* P(B|A) is a conditional probability: the likelihood of event B occurring given that A is true.
 
 * P(A) and P(B) are the probabilities of observing A and B independently of each other; this is known as the marginal probability.
 
